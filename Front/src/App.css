@@ -1,0 +1,113 @@
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(-45deg, #9c93c9, #6052a5, #383060, #100e1c);
+  background-size: 500% 500%;
+  animation: gradient 15s ease infinite;
+}
+
+
+body {
+  background-color: rgb(3, 30, 54);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#04AA6D;
+  margin: auto;
+  padding:0%;
+}
+
+.App {
+  text-align:center;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #d09fec;
+  color: rgb(188, 238, 221);
+  margin: 2.5cm;
+  padding: 0 .25rem;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 300px 0 0 0 #3506c5;
+  color: white;
+}
+
+table {
+  margin: .5cm;
+  border-collapse: collapse;
+}
+
+h2 {
+  margin-top: 2cm;
+}
+
+.App-header {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #04AA6D;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+select {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+tr, th {
+  border: 0pt;
+  margin: auto;
+  padding: 0%;
+}
+
+tr, td {
+  border: 0pt;
+  color: rgb(188, 238, 221);
+  padding: 0%;
+}
+
+input, button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td, th {
+  border: 1px solid rgb(105, 105, 105);
+  padding: 8px;
+}
+
+svg:hover {
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+  color:#e9875a
+}
+
+tr:nth-child(even){background-color: #413a5f;}
+
+tr:hover {background-color: rgb(58, 16, 97);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2b2b2b;
+  color: rgb(231, 231, 231); 
+}
+
